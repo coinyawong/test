@@ -1,0 +1,30 @@
+Node is bootstrapped, ready for injecting operations.
+Estimated gas: 100 units (will add 100 for safety)
+Estimated storage: no bytes added
+Operation successfully injected in the node.
+Operation hash: oozzFhWsEryBde2cbetaC9RUh2vjdpJvXeVwMLi3z5ZvWWmmBmo
+Waiting for the operation to be included...
+Operation found in block: BM1kzWujkFKWiRay6fwuBThUccciAxVZfWR7ASs5gFHXwjL6poa (pass: 3, offset: 1)
+This sequence of operations was run:
+  Manager signed operations:
+    From: tz1Zbbuc5Z1ctnCVybqdw7z6FwPjgVufDATc
+    Fee to the baker: ꜩ0
+    Expected counter: 16793
+    Gas limit: 200
+    Storage limit: 0 bytes
+    Transaction:
+      Amount: ꜩ0.372
+      From: tz1Zbbuc5Z1ctnCVybqdw7z6FwPjgVufDATc
+      To: tz1WuEwAexbx1T7PwCPRnB4Ln3VjQyGrTLwF
+      This transaction was successfully applied
+      Consumed gas: 100
+      Balance updates:
+        tz1Zbbuc5Z1ctnCVybqdw7z6FwPjgVufDATc ... -ꜩ0.372
+        tz1WuEwAexbx1T7PwCPRnB4Ln3VjQyGrTLwF ... +ꜩ0.372
+
+The operation has only been included 0 blocks ago.
+We recommend to wait more.
+Use command
+  tezos-client wait for oozzFhWsEryBde2cbetaC9RUh2vjdpJvXeVwMLi3z5ZvWWmmBmo to be included --confirmations 30
+and/or an external block explorer.
+2018. 09. 15. (토) 22:17:37 KST 아기고래 보너스(12-21) 님 19 사이클 보상완료 : ../tezos-client transfer 0.372 from ledger_coinyawong2_ed to tz1WuEwAexbx1T7PwCPRnB4Ln3VjQyGrTLwF --fee 0
